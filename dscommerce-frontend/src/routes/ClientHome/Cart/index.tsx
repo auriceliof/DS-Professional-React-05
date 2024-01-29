@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useEffect, useState } from "react";
-import * as cartService from '../../../localstorage/cart-service';
+import * as cartService from '../../../services/cart-service';
 import { OrderDTO, OrderItemDTO } from "../../../models/order";
 
 const item1 : OrderItemDTO = new OrderItemDTO(
